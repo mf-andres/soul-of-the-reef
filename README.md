@@ -29,7 +29,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Deployment
 
 ```
-ng build --prod --base-href "https://mf-andres.github.io/soul-of-the-reef"
+ng build -c production --base-href "https://mf-andres.github.io/soul-of-the-reef"
 ```
 
 ```
