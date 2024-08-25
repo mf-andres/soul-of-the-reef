@@ -59,7 +59,7 @@ export class AppComponent {
   init_weapon(): string {
     const d6_ = this.d6();
     if (d6_ == 6) {
-      return 'hechizo:' + this.spell();
+      return 'Hechizo: ' + this.spell();
     }
     return weapons[d6_ - 1];
   }

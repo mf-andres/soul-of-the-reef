@@ -1,4 +1,17 @@
 <div
+  class="cuneiform"
+  style="
+    margin-top: 30px;
+    height: 50px;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+  "
+>
+  ALMA DEL ARRECIFE
+</div>
+
+<div
   style="
     width: 350px;
     display: flex;
@@ -19,7 +32,7 @@
       margin-left: 5px;
     "
   >
-    <div>Nombre:</div>
+    <div><b>Nombre:</b></div>
     <input type="text" />
   </div>
   <div
@@ -66,10 +79,10 @@
       margin-left: 5px;
     "
   >
-    <div>Arma: {{ weapon }}</div>
-    <div>Armadura: {{ armour }}</div>
-    <div>Herramienta 1: {{ tool1 }}</div>
-    <div>Herramienta 2: {{ tool2 }}</div>
+    <div><b>Arma</b> {{ weapon }}</div>
+    <div><b>Armadura</b> {{ armour }}</div>
+    <div><b>Herramienta</b> 1: {{ tool1 }}</div>
+    <div><b>Herramienta</b> 2: {{ tool2 }}</div>
     <div>+20 Nautilos</div>
   </div>
   <div
@@ -82,17 +95,17 @@
     "
   >
     <div style="width: 175px; display: flex; flex-direction: column">
-      <div>Cuerpo: {{ body }}</div>
-      <div>Detalle: {{ detail }}</div>
-      <div>Pelo: {{ hair }}</div>
-      <div>Edad: {{ age }}</div>
+      <div><b>Cuerpo</b> {{ body }}</div>
+      <div><b>Detalle</b> {{ detail }}</div>
+      <div><b>Pelo</b> {{ hair }}</div>
+      <div><b>Edad</b> {{ age }}</div>
     </div>
 
     <div style="width: 175px; display: flex; flex-direction: column">
-      <div>Virtud: {{ virtue }}</div>
-      <div>Vicio: {{ vice }}</div>
-      <div>Desgracia: {{ tragedy }}</div>
-      <div>Trasfondo: {{ background }}</div>
+      <div><b>Virtud</b> {{ virtue }}</div>
+      <div><b>Vicio</b> {{ vice }}</div>
+      <div><b>Desgracia</b> {{ tragedy }}</div>
+      <div><b>Trasfondo</b> {{ background }}</div>
     </div>
   </div>
 </div>
